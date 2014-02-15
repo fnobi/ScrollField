@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>all</title>
+<link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+</head>
+<body>
+
+<div id="mocha"></div>
+
+<!-- mocha and assert module -->
+<script src="../node_modules/chai/chai.js"></script>
+<script src="../node_modules/mocha/mocha.js"></script>
+<script>mocha.setup('bdd')</script>
+
+<!-- js src -->
+<script src="../bower_components/EventEmitter/EventEmitter.js"></script>
+<script src="../bower_components/inherits/inherits.js"></script>
+<script src="../ScrollField.js"></script>
+
+
+<!-- test codes -->
+<script src="scroll-field-test.js"></script>
+
+<!-- run test -->
+<script>
+
+window.onload = function () {
+  if (window.mochaPhantomJS) {
+    mochaPhantomJS.run();
+  } else {
+    mocha.run();
+  }
+};
+</script>
+
+</body>
+</html>

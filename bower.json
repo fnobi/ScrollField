@@ -1,0 +1,16 @@
+{
+  "name": "ScrollField",
+  "version": "0.0.4",
+  "main": "ScrollField.js",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "EventEmitter": "~1.0.1",
+    "inherits": "~0.0.1"
+  }
+}

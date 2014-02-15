@@ -1,0 +1,23 @@
+{
+  "name": "ScrollField",
+  "description": "attach multi scroll event.",
+  "main": "ScrollField.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fnobi/ScrollField.git"
+  },
+  "author": "Fujisawa Shin",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-release": "~0.5.1",
+    "grunt-mocha-html": "0.3.0",
+    "grunt-koko": "~0.1.1",
+    "mocha": "~1.9.0",
+    "chai": "~1.7.2"
+  }
+}
